@@ -1,0 +1,59 @@
+@media screen and (max-width: 1000px) {
+  .top-left {
+    padding-top: 100px;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .top-left h1 {
+    font-size: 30px;
+  }
+
+  .food-item {
+    width: 250px;
+    height: 200px;
+  }
+
+  .food-item img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .top-left {
+    padding-top: 30px;
+  }
+
+  .top-left h1 {
+    font-size: 25px;
+  }
+
+  .flex-column {
+    flex-direction: column;
+  }
+
+  .top-right {
+    text-align: center;
+    width: 300px;
+  }
+
+  .hobby-item {
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+
+  .food-item {
+    margin: 0 auto;
+  }
+
+  .drink-item {
+    margin: 0 auto;
+    width: 300px;
+    height: 250px;
+  }
+}
